@@ -28,7 +28,7 @@ describe("Teste da calculadora com valor inteiro",()=>{
         const retornado= divisao(20,10)
         expect(retornado).toBe(esperado)
     });
-    test("Deve retonar erro ao realizar divisão por 0", ()=>{
+    test("Deve retonar erro ao realizar divisão por 0.", ()=>{
         expect(()=> divisao(10,0)).toThrow('Divisor Invalido');
     });
 
